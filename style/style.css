@@ -1,0 +1,354 @@
+@font-face {
+    font-family: 'ink free';
+    src: url("./fonte/Inkfree.ttf") format("truetype");
+}
+
+
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ink free, Arial;
+}
+
+body{
+    width: 100vw; 
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+option{
+    font-family: Arial;
+}
+
+/*header*/
+#header-page{
+    background-color: rgb(30, 190, 165);
+    width: 100%;
+    height: 15vh;
+    border-bottom: solid 2px white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#icone{
+    color: white;
+    text-align: center;
+    
+}
+
+/*menu*/
+#menu-nav{
+    width: 50%;
+    height: 100%;
+    
+}
+
+ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+li > a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+/*main*/
+#main-page{
+   width: 100%;
+
+}
+
+/*slide-show*/
+#container-slide-show{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+/*area de atuação*/
+#area-de-atuacao{
+    background-color: transparent;
+    width: 100%;
+    height: 100vh;
+    padding: 5% 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.container-areas{
+    background-color: transparent;
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.areas{
+    background-image: url(img/area-de-atuacao/background/fundo0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.sobreposicao-fundo{
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icone-area-atuacao{
+    width: 70px;
+    height: 70px;
+}
+
+.nome-area-atuacao{
+    font-weight: bold;
+}
+
+
+/*cadastro*/
+#cadastro-curriculo{
+    background-color: rgb(30, 190, 165);
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 5% 3%;
+
+}
+
+
+#form-curriculo{
+    background-color: transparent;
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.container-input{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+#container-input-data{
+    width: 80%;
+}
+
+#container-input-nome{
+    width: 100%;
+}
+
+
+.input{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#input-cargo, #input-nome{
+    width: 45%;
+}
+
+
+#container-data-nascimento{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+}
+
+#input-data{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.input-form-curriculo{
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: Arial;
+}
+
+.label-form-curriculo{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.small-form-curriculo{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#small-cpf-invalido{
+    padding-top: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial;
+    color: red;
+}
+
+#small-status-cadastro{
+    padding-top: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
+    color: red;
+}
+
+.campo-obrigatorio{
+    padding-top: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial;
+    color: red;
+}
+
+#btn-cadastrar-curriculo{
+    background-color: white;
+    width: 20%;
+    height: 10%;
+    color: rgb(30, 190, 165);
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/*empresas*/
+#empresas-parceiras{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 3%;
+   
+}
+
+#container-empresas-parseiras{
+    background-color: transparent;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.logo-empresas{
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+/*configuração footer da pagina*/
+#footer-page{
+    background-color: rgb(39, 52, 67);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    color: white;
+   
+}
+
+#footer-depoimentos{
+    background-color: transparent;
+    width: 100%;
+    height: 80vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.usuario{
+    background-color: transparent;
+    width: 33%;
+    height: 100%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.perfil{
+    background-color: pink;
+    width: 50%;
+    height: 40%;
+    border-radius: 50%;
+}
+
+.depoimento{
+    text-align: justify;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+#footer-footer{
+    background-color: rgb(35, 47, 60);
+    width: 100vw;
+    color: white;
+    font-size: 18px;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

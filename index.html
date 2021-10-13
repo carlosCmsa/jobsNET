@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+		<link rel="stylesheet" href="./style/style.css">
+		<title>jobsNET</title>
+
+	</head>
+	<body>
+		<header id="header-page">
+			<a href="index.html"><div id="icone">
+				<h1><b>jobsNET</b></h1>
+				<p><b>WORKING WITH YOU</b></p>
+			</div></a>
+			
+			<nav id="menu-nav">
+				<ul>
+					<li><a href="#area-de-atuacao"><b>AREA DE ATUAÇÃO</b></a></li>
+					<li><a href="#cadastro-curriculo"><b>CADASTRO</b></a></li>
+					<li><a href="#empresas-parceiras"><b>EMPRESAS PARCEIRAS</b></a></li>
+					<li><a href="#footer-page"><b>DEPOIMENTOS</b></a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="main-page">
+			<a href="#" target="_blank"><div id="container-slide-show">
+				
+			</div></a>
+
+			<section id="area-de-atuacao">
+				<h2>ESCOLHA SUA ÁREA DE ATUAÇÃO</h2>
+
+				<div class="container-areas">
+					<div class="areas">
+						<div class="sobreposicao-fundo">
+							<a href="#"><img class="icone-area-atuacao" src="img/area-de-atuacao/icone/icone0.png"></a>
+							<p class="nome-area-atuacao">EDUCAÇÃO</p>
+						</div>
+					</div>
+
+					<div class="areas">
+						<div class="sobreposicao-fundo">
+							<a href="#"><img class="icone-area-atuacao" src="img/area-de-atuacao/icone/icone1.png"></a>
+							<p class="nome-area-atuacao">FINANCEIRO</p>
+						</div>
+					</div>
+
+					<div class="areas">
+						<div class="sobreposicao-fundo">
+							<a href="#"><img class="icone-area-atuacao" src="img/area-de-atuacao/icone/icone2.png"></a>
+							<p class="nome-area-atuacao">PRODUÇÃO</p>
+						</div>
+					</div>
+
+					<div class="areas">
+						<div class="sobreposicao-fundo">
+							<a href="#"><img class="icone-area-atuacao" src="img/area-de-atuacao/icone/icone3.png"></a>
+							<p class="nome-area-atuacao">VENDAS</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="container-areas">
+					<div class="areas">
+						<div class="sobreposicao-fundo">
+							<a href="#"><img class="icone-area-atuacao" src="img/area-de-atuacao/icone/icone4.png"></a>
+							<p class="nome-area-atuacao">CULINÁRIA</p>
+						</div>
+					</div>
+
+					<div class="areas">
+						<div class="sobreposicao-fundo">
+							<a href="#"><img class="icone-area-atuacao" src="img/area-de-atuacao/icone/icone5.png"></a>
+							<p class="nome-area-atuacao">HOME OFFICE</p>
+						</div>
+					</div>
+
+					<div class="areas">
+						<div class="sobreposicao-fundo">
+							<a href="#"><img class="icone-area-atuacao" src="img/area-de-atuacao/icone/icone6.png"></a>
+							<p class="nome-area-atuacao">IMÓVEIS</p>
+						</div>
+					</div>
+
+					<div class="areas">
+						<div class="sobreposicao-fundo">
+							<a href="#"><img class="icone-area-atuacao" src="img/area-de-atuacao/icone/icone7.png"></a>
+							<p class="nome-area-atuacao">TRANSPORTE</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="cadastro-curriculo">
+				<h2>CADASTRAR CURRICULO</h2>
+
+				<form id="form-curriculo">
+					<h2>DADOS PESSOAIS</h2>
+					<hr>
+
+				<div class="container-input" id="container-input-nome">
+
+					<!--nome completo-->
+					<div class="input" id="input-nome">
+						<label class="label-form-curriculo" for="nome-completo">NOME COMPLETO</label>
+						<input class="input-form-curriculo input-obrigatorio" type="text" id="nome-completo">
+						<small class="campo-obrigatorio"></small>
+					</div>
+							
+
+					<!--cargo pretendido-->
+					<div class="input" id="input-cargo">
+						<label class="label-form-curriculo" for="cargo-pretendido">CARGO PRETENDIDO</label>
+						<input class="input-form-curriculo input-obrigatorio" type="text" id="cargo-pretendido">
+						<small class="campo-obrigatorio"></small>
+					</div>
+
+				</div>
+
+				<div class="container-input" id="container-input-data">
+
+					<!--data de nascimento-->
+					<div id="container-data-nascimento">
+						<label class="label-form-curriculo" for="dia-nascimento">DATA DE NASCIMENTO</label>
+
+						<div id="input-data">
+							<div class="input">
+								<select id="dia-nascimento" class="input-form-curriculo"> 
+											
+								</select>
+								<small class="small-form-curriculo">Dia</small>
+							</div>
+
+							<div class="input">
+								<select id="mes-nascimento" class="input-form-curriculo">
+
+								</select>
+								<small class="small-form-curriculo">Mês</small>
+							</div>
+
+							<div class="input">
+								<select id="ano-nascimento" class="input-form-curriculo">
+
+								</select>
+								<small class="small-form-curriculo">Ano</small>
+							</div>
+						</div>
+					</div>
+					
+		
+					<!--estado civil-->
+					<div class="input">
+						<label class="label-form-curriculo" for="estado-civil">ESTADO CIVIL</label>
+						<select id="estado-civil" class="input-form-curriculo">
+							<option></option>
+							<option>Casado</option>
+							<option>Solteiro</option>
+						</select>
+					</div>
+
+					<!--sexo-->
+					<div class="input">
+						<label class="label-form-curriculo" for="sexo">SEXO</label>
+						<select id="sexo" class="input-form-curriculo">
+							<option></option>
+							<option>Masculino</option>
+							<option>Feminino</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="container-input">
+					<!--endereco-->
+					<div class="input">
+						<label class="label-form-curriculo" for="cep">CEP</label>
+						<input class="input-form-curriculo input-obrigatorio" id="cep" type="text" maxlength="9" placeholder="00000-000">
+						<small id="small-cpf-invalido"></small>
+						<small class="campo-obrigatorio"></small>
+					</div>
+
+					<div class="input">
+						<label class="label-form-curriculo" for="endereco">ENDEREÇO</label>
+						<input class="input-form-curriculo" disabled id="endereco" type="text">
+					</div>
+
+					<div class="input">
+						<label class="label-form-curriculo" for="bairro">BAIRRO</label>
+						<input class="input-form-curriculo" disabled id="bairro" type="text">
+					</div>
+
+				</div>
+
+				<div class="container-input">
+
+					<div class="input">
+						<label class="label-form-curriculo" for="cidade">CIDADE</label>
+						<input class="input-form-curriculo" disabled id="cidade" type="text">
+					</div>
+
+					<div class="input">
+						<label class="label-form-curriculo" for="numero">NÚMERO</label>
+						<input class="input-form-curriculo" id="numero" type="text">
+					</div>
+
+					<div class="input">
+						<label class="label-form-curriculo" for="estado">UF</label>
+						<input class="input-form-curriculo" disabled id="estado" type="text">
+					</div>
+
+				</div>
+
+				<div class="container-input">
+				
+					<!--telefone-->
+					<div class="input">
+						<label class="label-form-curriculo" for="telefone-fixo">TELEFONE FIXO</label>
+						<input class="input-form-curriculo input-obrigatorio" id="telefone-fixo" type="text" maxlength="10" placeholder="(00) 0000-0000">
+						<small class="campo-obrigatorio"></small>
+					</div>
+
+					<div class="input">
+						<label class="label-form-curriculo" for="telefone-celular">TELEFONE CELULAR</label>
+						<input class="input-form-curriculo input-obrigatorio" id="telefone-celular" type="text" maxlength="11" placeholder="(00) 0 0000-0000">
+						<small class="campo-obrigatorio"></small>
+					</div>
+
+					<!--email-->
+					<div class="input">
+						<label class="label-form-curriculo" for="email">EMAIL</label>
+						<input class="input-form-curriculo input-obrigatorio" id="email" type="text" placeholder="ex: myname@exemple.com">
+						<small class="campo-obrigatorio"></small>
+					</div>
+						
+				</div>
+
+				<div class="container-input">
+
+					<!--documentos-->
+					<div class="input">
+						<label class="label-form-curriculo" for="rg">RG</label>
+						<input class="input-form-curriculo input-obrigatorio" id="rg" type="text" max-length="9" placeholder="00.000.000-0">
+						<small class="campo-obrigatorio"></small>
+					</div>
+
+					<div class="input">
+						<label class="label-form-curriculo" for="cpf">CPF</label>
+						<input class="input-form-curriculo input-obrigatorio" id="cpf" type="text" max-length="11" placeholder="000.000.000-00">
+						<small class="campo-obrigatorio"></small>
+					</div>
+
+					<div class="input">
+						<label class="label-form-curriculo" for="veiculo">POSSUI VEÍCULO</label>
+						<select class="input-form-curriculo" id="veiculo">
+							<option></option>
+							<option>Sim</option>
+							<option>Não</option>
+						</select>
+					</div>
+
+					<div class="input">
+						<label class="label-form-curriculo" for="habilitacao">HABILITAÇÃO</label>
+						<select class="input-form-curriculo" id="habilitacao">
+							<option></option>
+							<option>Sim</option>
+							<option>Não</option>
+						</select>
+					</div>
+				</div>
+
+				</form>
+
+				<button id="btn-cadastrar-curriculo"><b>CADASTRAR</b></button>
+				<small id="small-status-cadastro"></small>
+			</section>
+
+			<section id="empresas-parceiras">
+				<h2>EMPRESAS PARCEIRAS</h2>
+				<div id="container-empresas-parseiras">
+				
+					<a href="https://www.netflix.com/" target="_blank"><img class="logo-empresas" src="img/empresas/img0.jpg"></a>
+					
+					<a href="https://www.ifood.com.br/" target="_blank"><img class="logo-empresas" src="img/empresas/img1.jpg"></a>
+	
+					<a href="https://www.mcdonalds.com.br/" target="_blank"><img class="logo-empresas" src="img/empresas/img2.jpg"></a>
+					
+					<a href="https://www.coral.com.br/" target="_blank"><img class="logo-empresas" src="img/empresas/img3.jpg"></a>
+					
+				</div>
+			</section>
+		</main>
+
+		<footer id="footer-page">
+			<h2>DEPOIMENTOS</h2>
+
+			<div id="footer-depoimentos">
+				<div class="usuario">
+					<img class="perfil" src="img/usuario/perfil0.jpg">
+					<h2 id="nome-usuario">ROGGER HIAGO</h2>
+					<p class="depoimento">Existem muitas variações de passagens de Lorem Ipsum disponíveis, mas a maioria sofreu alteração de 
+					alguma forma, por humor injetado, ou palavras aleatórias que não parecem nem um pouco críveis. Se for usar uma passagem de 
+					Lorem Ipsum, você precisa ter certeza de que não há nada embaraçoso escondido no meio do texto. Todos os geradores Lorem 
+					Ipsum na Internet tendem a Existem muitas variações de passagens de Lorem.</p>
+				</div>
+
+				<div class="usuario">
+					<img class="perfil" src="img/usuario/perfil1.jpg">
+					<h2 id="nome-usuario">HOMUALDO ABRAÃO</h2>
+					<p class="depoimento">Existem muitas variações de passagens de Lorem Ipsum disponíveis, mas a maioria sofreu alteração de 
+					alguma forma, por humor injetado, ou palavras aleatórias que não parecem nem um pouco críveis. Se for usar uma passagem de 
+					Lorem Ipsum, você precisa ter certeza de que não há nada embaraçoso escondido no meio do texto. Todos os geradores Lorem 
+					Ipsum na Internet tendem a Existem muitas variações de passagens de Lorem.</p>
+				</div>
+
+				<div class="usuario">
+					<img class="perfil" src="img/usuario/perfil2.jpg">
+					<h2 id="nome-usuario">CARLOS DUARTE</h2>
+					<p class="depoimento">Existem muitas variações de passagens de Lorem Ipsum disponíveis, mas a maioria sofreu alteração de 
+					alguma forma, por humor injetado, ou palavras aleatórias que não parecem nem um pouco críveis. Se for usar uma passagem de 
+					Lorem Ipsum, você precisa ter certeza de que não há nada embaraçoso escondido no meio do texto. Todos os geradores Lorem 
+					Ipsum na Internet tendem a Existem muitas variações de passagens de Lorem.</p>
+				</div>
+			</div>
+			<footer id="footer-footer">
+				<p><b>Copyright&copy;jobsNET</b></p>
+			</footer>
+		</footer>
+		
+		<script src="script.js">
+			
+		</script>
+
+	</body>
+</html>
