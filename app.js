@@ -37,10 +37,10 @@ app.get('/', (req, res) => {
 app.post('/cadastrar', (req, res) => {
     /*mysql*/
     const connection = mysql.createConnection({
-        host : "",
-        user : "",
+        host : "localhost",
+        user : "root",
         password : "",
-        database : ""
+        database : "jobsnet"
     });
 
     connection.connect();
