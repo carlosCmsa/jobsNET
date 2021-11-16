@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://img.freepik.com/fotos-gratis/imagem-aproximada-em-tons-de-cinza-de-uma-aguia-careca-americana-em-um-fundo-escuro_181624-31795.jpg?size=626&ext=jpg"</h1>
+<h1 align="center"><img src="https://github.com/carlosCmsa/assets/blob/master/jobsNET/logo_jobsNET.png"</h1>
 
 
 ## 📃 About
@@ -7,7 +7,9 @@ Esse projeto foi uma proposta de desafio realizado durante o programa Start Tech
   
 ### https://carloscmsa.github.io/programa_start_tech_jobsNET/#
   
-[![](https://img.freepik.com/fotos-gratis/imagem-aproximada-em-tons-de-cinza-de-uma-aguia-careca-americana-em-um-fundo-escuro_181624-31795.jpg?size=626&ext=jpg)](#)
+[![](https://github.com/carlosCmsa/assets/blob/master/jobsNET/git_slide-show.gif)](#)
+  
+[![](https://github.com/carlosCmsa/assets/blob/master/jobsNET/git_completa.gif)](#)
 
 ## 🛠️ Tools
 
