@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://github.com/carlosCmsa/assets/blob/master/jobsNET/logo_jobsNET.png"</h1>
+<h1 align="center"><img src="https://github.com/carlosCmsa/assets/blob/master/jobsNET/banner_jobsNET.png"</h1>
 
 
 ## 📃 Sobre o projeto
