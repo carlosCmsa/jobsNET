@@ -7,7 +7,7 @@ Esse projeto foi uma proposta de desafio realizado durante o programa Start Tech
   
 ### https://carloscmsa.github.io/programa_start_tech_jobsNET/#
   
-[![](https://github.com/carlosCmsa/assets/blob/master/jobsNET/git_completa.gif)](#)
+[![](https://github.com/carlosCmsa/assets/blob/master/jobsNET/gif_completa.gif)](#)
 
 </br> 
   
