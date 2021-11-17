@@ -30,7 +30,7 @@ Esse projeto foi uma proposta de desafio realizado durante o programa Start Tech
 
 ## 🔬 Como utilizar
 
-### Pré requisitos : Node.js 
+### 📝 Pré requisitos : Node.js 
 
 ```bash 
 # clonar repositório 
