@@ -4,6 +4,9 @@
 ## 📃 Sobre o projeto
 
 Esse projeto foi uma proposta de desafio realizado durante o programa Start Tech uma parceria entre a Ambev Tech e Gama Academy, e consiste na criação de uma landing page com formulário para preenchimento de candidatura.
+
+  
+### https://flamboyant-agnesi-a26137.netlify.app/
   
   
 [![](https://github.com/carlosCmsa/assets/blob/master/jobsNET/gif_completa.gif)](#)
