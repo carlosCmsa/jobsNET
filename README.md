@@ -5,7 +5,6 @@
 
 Esse projeto foi uma proposta de desafio realizado durante o programa Start Tech uma parceria entre a Ambev Tech e Gama Academy, e consiste na criação de uma landing page com formulário para preenchimento de candidatura.
   
-### https://carloscmsa.github.io/programa_start_tech_jobsNET/#
   
 [![](https://github.com/carlosCmsa/assets/blob/master/jobsNET/gif_completa.gif)](#)
 
