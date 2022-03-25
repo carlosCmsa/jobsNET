@@ -30,9 +30,14 @@ Esse projeto foi uma proposta de desafio realizado durante o programa Start Tech
 
 </br>
 
-## 🔬 Como utilizar
+## 📝 Pré requisitos 
 
-### 📝 Pré requisitos : Node.js 
+[![NPM](https://img.shields.io/badge/NPM-FF0000?style=for-the-badge)](#)
+[![Node.js](https://img.shields.io/badge/Node.js-00FFFF?style=for-the-badge&logo=node.js&logoColor=white)](#)
+
+</br>
+
+## 🔬 Como utilizar
 
 ```bash 
 # clonar repositório 
@@ -40,7 +45,8 @@ git clone https://github.com/carlosCmsa/programa_start_tech_jobsNET.git
 ```
 
 ```bash 
-# instalar as dependências do projeto 
+# instalar as dependências do projeto
+# entre na pasta do projeto e execute o comando
 npm install
 ```
 
